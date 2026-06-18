@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<title>Sora AI</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div id="sidebar" class="sidebar">
+  <div class="sidebar-header">
+    <span>Chats</span>
+    <button id="newChatBtn" class="icon-btn">+</button>
+  </div>
+  <div id="chatList" class="chat-list"></div>
+</div>
+
+<div id="overlay" class="overlay"></div>
+
+<div class="app">
+  <div class="topbar">
+    <button id="menuBtn" class="icon-btn">&#9776;</button>
+    <div class="topbar-title">Sora AI</div>
+    <button id="micStatusBtn" class="icon-btn" title="Background listening">&#9899;</button>
+  </div>
+
+  <div id="messages" class="messages"></div>
+
+  <div id="partialBar" class="partial-bar" style="display:none;"></div>
+
+  <div class="input-bar">
+    <button id="micBtn" class="mic-btn">&#127908;</button>
+    <textarea id="textInput" placeholder="Likho ba bolo..." rows="1"></textarea>
+    <button id="sendBtn" class="send-btn">&#10148;</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+# Personal data - NEVER push this
+server/chats.db
+*.db
+
+# Android build outputs
+*.apk
+app/build/
+build/
+.gradle/
+local.properties
+
+# OS / editor junk
+.DS_Store
+*.iml
+.idea/

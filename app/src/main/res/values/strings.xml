@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Sora AI</string>
+    <string name="accessibility_service_description">Sora AI ke voice command diye phone control korte deyar jonno (home/back, screen er text e click) — eta accessibility service. Eta on na korle voice-control feature kaj korbe na, kintu chat normally kaj korbe.</string>
+</resources>
